@@ -1,30 +1,35 @@
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (1, '+62 (194) 900-6605', 'LTV');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (2, '+62 (403) 917-9570', 'AOC');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (3, '+7 (555) 255-8148', 'Class Actions');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (4, '+420 (648) 551-6259', 'DQL');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (5, '+7 (964) 821-2809', 'Kodaly');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (6, '+86 (935) 304-5203', 'ISO 9000');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (7, '+86 (621) 428-5562', 'Film Festivals');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (8, '+380 (918) 819-0416', 'CMS');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (9, '+1 (583) 605-4347', 'Zebra');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (10, '+86 (801) 899-7934', 'Real Estate Transactions');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (11, '+66 (250) 252-4271', 'PFEP');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (12, '+995 (456) 426-9478', 'OHSAS 18001');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (13, '+33 (804) 629-2900', 'Workplace Violence');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (14, '+375 (584) 496-9183', 'EWS');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (15, '+976 (163) 946-7862', 'TUPE');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (16, '+86 (182) 612-4240', 'UED');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (17, '+7 (115) 825-8256', 'Crisis Communications');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (18, '+380 (978) 900-7216', 'Juniper Technologies');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (19, '+359 (765) 439-8980', 'Digital IC Design');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (20, '+33 (379) 155-2073', 'Pensions');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (21, '+351 (571) 586-7039', 'AC Nielsen');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (22, '+86 (319) 934-7989', 'XenClient');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (23, '+48 (827) 216-1202', 'Income Tax');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (24, '+591 (985) 703-1492', 'Environmental Issues');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (25, '+591 (166) 778-3296', 'JPEG');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (26, '+86 (246) 120-2102', 'BSC');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (27, '+48 (794) 890-3143', 'VLDB');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (28, '+353 (312) 570-2005', 'HTML Emails');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (29, '+31 (498) 894-3086', 'First Time Home Sellers');
-insert into perfil_relator (relator_idRelator, numerocontacto, especialidad) values (30, '+351 (267) 162-0183', 'DFP');
+USE bd_ycourses;
+/*INSERTANDO (30) FILA(S)*/
+/*FORMATO DATE yyyy-mm-dd*/
+INSERT INTO perfil_relator (relator_idRelator, numerocontacto, especialidad)
+VALUES
+   ('12345771-4', '+62 (194) 900-6605', 'LTV'),
+   ('12345772-2', '+62 (403) 917-9570', 'AOC'),
+   ('12345773-0', '+7 (555) 255-8148', 'Class Actions'),
+   ('12345774-9', '+420 (648) 551-6259', 'DQL'),
+   ('12345775-7', '+7 (964) 821-2809', 'Kodaly'),
+   ('12345776-5', '+86 (935) 304-5203', 'ISO 9000'),
+   ('12345777-3', '+86 (621) 428-5562', 'Film Festivals'),
+   ('12345778-1', '+380 (918) 819-0416', 'CMS'),
+   ('12345779-K', '+1 (583) 605-4347', 'Zebra'),
+   ('12345780-3', '+86 (801) 899-7934', 'Real Estate Transactions'),
+   ('12345781-1', '+66 (250) 252-4271', 'PFEP'),
+   ('12345782-K', '+995 (456) 426-9478', 'OHSAS 18001'),
+   ('12345783-8', '+33 (804) 629-2900', 'Workplace Violence'),
+   ('12345784-6', '+375 (584) 496-9183', 'EWS'),
+   ('12345785-4', '+976 (163) 946-7862', 'TUPE'),
+   ('12345786-2', '+86 (182) 612-4240', 'UED'),
+   ('12345787-0', '+7 (115) 825-8256', 'Crisis Communications'),
+   ('12345788-9', '+380 (978) 900-7216', 'Juniper Technologies'),
+   ('12345789-7', '+359 (765) 439-8980', 'Digital IC Design'),
+   ('12345790-0', '+33 (379) 155-2073', 'Pensions'),
+   ('16944869-8', '+351 (571) 586-7039', 'AC Nielsen'),
+   ('16944870-1', '+86 (319) 934-7989', 'XenClient'),
+   ('16944871-K', '+48 (827) 216-1202', 'Income Tax'),
+   ('16944872-8', '+591 (985) 703-1492', 'Environmental Issues'),
+   ('18111674-9', '+591 (166) 778-3296', 'JPEG'),
+   ('18202674-9', '+86 (246) 120-2102', 'BSC'),
+   ('12887353-8', '+48 (794) 890-3143', 'VLDB'),
+   ('12887354-6', '+353 (312) 570-2005', 'HTML Emails'),
+   ('12887355-4', '+31 (498) 894-3086', 'First Time Home Sellers'),
+   ('12887356-2', '+351 (267) 162-0183', 'DFP');
