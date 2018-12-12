@@ -1,5 +1,5 @@
 ﻿USE bd_ycourses;
-/*INSERTANDO (30) COLUMNA(S)*/
+/*INSERTANDO (30) FILA(S)*/
 /*FORMATO DATE yyyy-mm-dd*/
 INSERT INTO relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado, ciudad_idciudad)
 VALUES

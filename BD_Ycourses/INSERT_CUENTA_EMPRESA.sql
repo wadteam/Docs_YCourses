@@ -1,20 +1,25 @@
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('1', '05-999-8954', true, 'Chatterbridge');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('2', '82-574-4935', false, 'Yotz');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('3', '84-995-7564', true, 'Skidoo');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('4', '66-671-4980', false, 'Browsetype');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('5', '08-472-0422', true, 'Mybuzz');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('6', '46-695-8650', true, 'Oyope');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('7', '35-997-6401', false, 'Pixoboo');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('8', '14-814-6004', false, 'Yambee');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('9', '80-912-4819', false, 'Muxo');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('10', '83-616-9080', true, 'Zazio');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('11', '03-400-0649', true, 'Kwimbee');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('12', '25-674-2195', false, 'Flipopia');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('13', '76-337-7833', false, 'Teklist');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('14', '68-357-1109', true, 'Innotype');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('15', '37-137-8958', true, 'Zoovu');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('16', '51-468-9350', true, 'Kwinu');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('17', '06-112-8821', false, 'Minyx');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('18', '94-231-1189', true, 'Vimbo');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('19', '32-260-8263', true, 'Devcast');
-insert into cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor) values ('20', '71-638-0629', true, 'Thoughtmix');
+USE bd_ycourses;
+/*INSERTANDO (20) FILA(S)*/
+
+INSERT INTO cuenta_empresa (empresa_rutempresa, numerocuenta, estadocuenta, bancoacreedor)
+VALUES
+  ('1', '05-999-8954', 'activo', 'Chatterbridge'),
+  ('2', '82-574-4935', 'pendiente', 'Yotz'),
+  ('3', '84-995-7564', 'activo', 'Skidoo'),
+  ('4', '66-671-4980', 'pendiente', 'Browsetype'),
+  ('5', '08-472-0422', 'activo', 'Mybuzz'),
+  ('6', '46-695-8650', 'activo', 'Oyope'),
+  ('7', '35-997-6401', 'pendiente', 'Pixoboo'),
+  ('8', '14-814-6004', 'pendiente', 'Yambee'),
+  ('9', '80-912-4819', 'pendiente', 'Muxo'),
+  ('10', '83-616-9080', 'activo', 'Zazio'),
+  ('11', '03-400-0649', 'activo', 'Kwimbee'),
+  ('12', '25-674-2195', 'pendiente', 'Flipopia'),
+  ('13', '76-337-7833', 'pendiente', 'Teklist'),
+  ('14', '68-357-1109', 'activo', 'Innotype'),
+  ('15', '37-137-8958', 'activo', 'Zoovu'),
+  ('16', '51-468-9350', 'activo', 'Kwinu'),
+  ('17', '06-112-8821', 'pendiente', 'Minyx'),
+  ('18', '94-231-1189', 'activo', 'Vimbo'),
+  ('19', '32-260-8263', 'activo', 'Devcast'),
+  ('20', '71-638-0629', 'activo', 'Thoughtmix');
