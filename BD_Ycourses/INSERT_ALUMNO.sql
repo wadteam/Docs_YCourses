@@ -1,98 +1,100 @@
 USE bd_ycourses;
-/*INSERTANDO 95 COLUMNAS*/
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Marty', 'Dimnage', 'Masculino', 'mdimnage0@va.gov', 'mqSTHIO9nCWi', 'Activo', 24);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Eamon', 'Blinde', 'Masculino', 'eblinde1@pagesperso-orange.fr', 'LJ4BQaJp5M', 'Inactivo', 4);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Nonie', 'Brennans', 'Femenino', 'nbrennans2@dedecms.com', '8ryFhL', 'Activo', 12);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Rosabella', 'Coggan', 'Femenino', 'rcoggan3@usa.gov', 'bQQuHHDHb9yt', 'Activo', 31);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Lucas', 'Freschi', 'Masculino', 'lfreschi4@zimbio.com', 'SnUO3u', 'Inactivo', 21);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Elliot', 'Reuven', 'Masculino', 'ereuven5@dropbox.com', 'RK11snC7kw', 'Inactivo', 13);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Forester', 'Merill', 'Masculino', 'fmerill6@cisco.com', 'WIUwHWKT', 'Inactivo', 1);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Jackie', 'Macura', 'Masculino', 'jmacura7@marketwatch.com', 'xmsWjX', 'Inactivo', 28);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Hanny', 'Bassam', 'Femenino', 'hbassam8@amazon.de', 'xSfZOxWlcY', 'Inactivo', 29);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Tammy', 'Quye', 'Masculino', 'tquye9@sitemeter.com', 'AqPuq7u', 'Inactivo', 1);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Cristy', 'Osman', 'Femenino', 'cosmana@fotki.com', 'VrUsnJ', 'Activo', 24);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Kandace', 'Millington', 'Femenino', 'kmillingtonb@list-manage.com', '0WnfjllMec', 'Inactivo', 19);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Jess', 'Elphinston', 'Femenino', 'jelphinstonc@state.tx.us', 'DrqNuy', 'Activo', 28);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Byrom', 'Lavelle', 'Masculino', 'blavelled@mapquest.com', 'DzZuG4OuOuDV', 'Inactivo', 22);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Jaimie', 'Reichelt', 'Masculino', 'jreichelte@hubpages.com', '1aJd3M', 'Inactivo', 10);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Gerome', 'Simonin', 'Masculino', 'gsimoninf@ftc.gov', 'Pb8m6F8a8Rh', 'Inactivo', 22);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Berri', 'Kiley', 'Femenino', 'bkileyg@google.co.uk', 'tnwhb28eR', 'Inactivo', 9);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Natty', 'Abeau', 'Masculino', 'nabeauh@nih.gov', 'umwZk5Xd', 'Inactivo', 21);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Farrand', 'Stalf', 'Femenino', 'fstalfi@arstechnica.com', 'VSkuGVfWKV6', 'Activo', 11);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Lucy', 'Bethell', 'Femenino', 'lbethellj@mac.com', 'VWkhs9QBwo2x', 'Activo', 14);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Ken', 'Metts', 'Masculino', 'kmettsk@stumbleupon.com', '9SvAjP', 'Activo', 21);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Victoir', 'Daily', 'Masculino', 'vdailyl@nature.com', 'jRmfbl', 'Inactivo', 22);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Carlin', 'Drinkall', 'Masculino', 'cdrinkallm@walmart.com', 'e17EIb', 'Activo', 10);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Darcie', 'Dunsmuir', 'Femenino', 'ddunsmuirn@posterous.com', 'IdtCOYP0Yk9', 'Inactivo', 11);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Codie', 'Spier', 'Masculino', 'cspiero@scribd.com', 'HUFKeiZmVihW', 'Activo', 15);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Corbet', 'Vaud', 'Masculino', 'cvaudp@ted.com', 'xe2e6PIJc4', 'Inactivo', 9);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Quent', 'Skentelbury', 'Masculino', 'qskentelburyq@devhub.com', '0QybXaRbn', 'Inactivo', 28);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Catha', 'Buddle', 'Femenino', 'cbuddler@ucoz.ru', 'R9O7gpA9icQ1', 'Activo', 7);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Chester', 'Archdeacon', 'Masculino', 'carchdeacons@liveinternet.ru', 'PRB6ZTjcj', 'Activo', 30);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Lori', 'Forbes', 'Femenino', 'lforbest@wikimedia.org', 'wKhs8pJ', 'Activo', 23);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Ingaborg', 'Duny', 'Femenino', 'idunyu@list-manage.com', 'qMwhono9OK', 'Activo', 34);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Pavlov', 'Keyworth', 'Masculino', 'pkeyworthv@de.vu', '4Y8XssSde2T', 'Inactivo', 2);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Corette', 'Treffrey', 'Femenino', 'ctreffreyw@joomla.org', 'FLopzBGTBs', 'Activo', 18);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Irvine', 'Geard', 'Masculino', 'igeardx@chronoengine.com', 'h8duxK', 'Activo', 33);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Hailey', 'Bracegirdle', 'Masculino', 'hbracegirdley@flavors.me', 'ighMb3', 'Activo', 3);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Joyan', 'Shortall', 'Femenino', 'jshortallz@squarespace.com', 'LVLqLKKBuqy', 'Inactivo', 22);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Stewart', 'Ackeroyd', 'Masculino', 'sackeroyd10@phoca.cz', 'i2AaxJGixmT', 'Inactivo', 3);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Carma', 'Alleway', 'Femenino', 'calleway11@bbc.co.uk', 'UIiPnfkHicqb', 'Inactivo', 30);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Kerwin', 'McNab', 'Masculino', 'kmcnab12@arizona.edu', '9XUC77BoM', 'Activo', 29);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Kit', 'Rakes', 'Femenino', 'krakes13@i2i.jp', 'P0zJRtHGdQ', 'Activo', 29);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Jacobo', 'Gronou', 'Masculino', 'jgronou14@ebay.com', 'cLGpLRL', 'Inactivo', 8);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Donnajean', 'Rove', 'Femenino', 'drove15@nps.gov', '4i17UFkpO36Q', 'Inactivo', 3);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Orv', 'Barkley', 'Masculino', 'obarkley16@opensource.org', 'EA7TkpDCy', 'Inactivo', 28);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Lloyd', 'Grimoldby', 'Masculino', 'lgrimoldby17@mozilla.org', '0DHuOUs', 'Activo', 2);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Merrili', 'Sampey', 'Femenino', 'msampey18@csmonitor.com', 'h2Bnpds', 'Activo', 23);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Jo', 'Huckerby', 'Femenino', 'jhuckerby19@dell.com', 'KSlLkmsgjbj', 'Inactivo', 23);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Elayne', 'Jurczik', 'Femenino', 'ejurczik1a@google.co.jp', 'JhhGQVH8B', 'Inactivo', 1);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Patin', 'D'' Angelo', 'Masculino', 'pdangelo1b@yellowpages.com', 'lrr0mBJF', 'Activo', 8);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Jordain', 'Stubbley', 'Femenino', 'jstubbley1c@reference.com', 'UkwJ4SkOf', 'Activo', 27);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Dan', 'Olyff', 'Masculino', 'dolyff1d@google.it', 'fzzz0ia46f', 'Inactivo', 30);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Iormina', 'Greed', 'Femenino', 'igreed1e@jigsy.com', 'Bi9OhQq', 'Inactivo', 7);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Jeffy', 'Drillot', 'Masculino', 'jdrillot1f@weebly.com', '58Lnel', 'Inactivo', 6);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Marjy', 'Schlagtmans', 'Femenino', 'mschlagtmans1g@acquirethisname.com', 'kYPbed', 'Inactivo', 32);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Micky', 'Antowski', 'Femenino', 'mantowski1h@ted.com', 'RLq8DCxx', 'Activo', 6);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Dee dee', 'Redit', 'Femenino', 'dredit1i@marketwatch.com', 'h3IbAa', 'Activo', 16);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Birch', 'Foy', 'Masculino', 'bfoy1j@posterous.com', 'PoPbTfi', 'Inactivo', 14);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Sybille', 'MacFaul', 'Femenino', 'smacfaul1k@bbb.org', 'sroj8YbbX6St', 'Activo', 12);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Griz', 'Mottini', 'Masculino', 'gmottini1l@unblog.fr', 'spv10Q', 'Inactivo', 26);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Cassondra', 'Malicki', 'Femenino', 'cmalicki1m@howstuffworks.com', 'pFgkvZmN1J5', 'Inactivo', 19);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Robby', 'Beagen', 'Femenino', 'rbeagen1n@si.edu', 'Ndbo7AKw', 'Inactivo', 13);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Valli', 'Gutherson', 'Femenino', 'vgutherson1o@reuters.com', 'evHyytwBSJ', 'Activo', 31);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Prisca', 'Pinnigar', 'Femenino', 'ppinnigar1p@meetup.com', '9b9Agqs', 'Activo', 1);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('John', 'Van Dale', 'Masculino', 'jvandale1q@example.com', 'NIHm0Py2udg', 'Inactivo', 9);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Omero', 'Alflat', 'Masculino', 'oalflat1r@usda.gov', 'Cb3e48t', 'Inactivo', 26);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Lily', 'Arnli', 'Femenino', 'larnli1s@wikispaces.com', 'OG5JJ6dfD', 'Activo', 21);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Base', 'Laing', 'Masculino', 'blaing1t@goodreads.com', 'yZo6hTCJewV', 'Inactivo', 12);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Itch', 'Bundy', 'Masculino', 'ibundy1u@hexun.com', 'coa6BJ5nl', 'Inactivo', 6);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Helli', 'Cyples', 'Femenino', 'hcyples1v@mtv.com', '1Nta1qYzxKVK', 'Inactivo', 11);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Lilian', 'Stocker', 'Femenino', 'lstocker1w@boston.com', 'bkKSs7opv', 'Activo', 18);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Nina', 'Cann', 'Femenino', 'ncann1x@youtu.be', '8Th11rlUaM', 'Inactivo', 34);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Dory', 'Lantoph', 'Femenino', 'dlantoph1y@bbb.org', 'mjwZWx', 'Activo', 13);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Kaitlyn', 'Percy', 'Femenino', 'kpercy1z@webeden.co.uk', 'lmh8OjkHr', 'Inactivo', 26);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Khalil', 'Crudginton', 'Masculino', 'kcrudginton20@xinhuanet.com', 'sAcN1k9', 'Activo', 16);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Fitzgerald', 'Beade', 'Masculino', 'fbeade21@engadget.com', 'ZpbHhuG8', 'Activo', 28);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Garner', 'Withams', 'Masculino', 'gwithams22@delicious.com', 'GG0kj3', 'Inactivo', 16);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Matthias', 'Streater', 'Masculino', 'mstreater23@ted.com', 'QckHIefE1KzF', 'Activo', 19);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Janene', 'Olland', 'Femenino', 'jolland24@issuu.com', 'VvbAHJn', 'Activo', 14);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Bruno', 'Antrobus', 'Masculino', 'bantrobus25@sogou.com', 'tut4DLd1', 'Activo', 27);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Rance', 'Boast', 'Masculino', 'rboast26@examiner.com', 'dqibnR', 'Activo', 2);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Dugald', 'McKue', 'Masculino', 'dmckue27@pcworld.com', '3lUiAAbXY94', 'Inactivo', 2);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Rose', 'Camilleri', 'Femenino', 'rcamilleri28@free.fr', 'Icr8coxf', 'Inactivo', 6);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Shanan', 'Gilhouley', 'Masculino', 'sgilhouley29@geocities.jp', 'QCyAbNOD4I', 'Activo', 21);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Barde', 'Cocking', 'Masculino', 'bcocking2a@arstechnica.com', 's732h9L', 'Activo', 32);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Irwinn', 'Whife', 'Masculino', 'iwhife2b@gizmodo.com', 'NnwVvF6fvnOW', 'Inactivo', 3);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Ronny', 'Buncombe', 'Femenino', 'rbuncombe2c@go.com', 'J6cNUKCjw', 'Inactivo', 29);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Merrie', 'Avrahamov', 'Femenino', 'mavrahamov2d@stumbleupon.com', 'f4rC6OfaZ', 'Activo', 3);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Ezequiel', 'O''Dunniom', 'Masculino', 'eodunniom2e@purevolume.com', 'AluyUsfPi', 'Inactivo', 28);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Antony', 'Mattioni', 'Masculino', 'amattioni2f@bloomberg.com', 'ftW5GvKQ', 'Activo', 2);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Odelle', 'Godrich', 'Femenino', 'ogodrich2g@booking.com', 'qlPnbpXY', 'Inactivo', 2);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Kizzee', 'Thiese', 'Femenino', 'kthiese2h@devhub.com', 'mQil1m', 'Activo', 23);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Robinet', 'Scotcher', 'Masculino', 'rscotcher2i@creativecommons.org', 'b2s3ppl40', 'Inactivo', 34);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Farley', 'Barnhart', 'Masculino', 'fbarnhart2j@hugedomains.com', 'mXSOGbtf1', 'Inactivo', 34);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Irv', 'Tiplady', 'Masculino', 'itiplady2k@latimes.com', 'hnOWAT5E5ZX', 'Activo', 22);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Hilary', 'Threadgill', 'Femenino', 'hthreadgill2l@wired.com', 'ddnkHeOoSq', 'Inactivo', 33);
-insert into alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad) values ('Leisha', 'Ballendine', 'Femenino', 'lballendine2m@wiley.com', 'QoB4VNsF', 'Inactivo', 25);
+/*INSERTANDO (95) COLUMNA(S)*/
+INSERT INTO alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad)
+VALUES
+   ('Marty', 'Dimnage', 'Masculino', 'mdimnage0@va.gov', 'mqSTHIO9nCWi', 'Activo', 24),
+   ('Eamon', 'Blinde', 'Masculino', 'eblinde1@pagesperso-orange.fr', 'LJ4BQaJp5M', 'Inactivo', 4),
+   ('Nonie', 'Brennans', 'Femenino', 'nbrennans2@dedecms.com', '8ryFhL', 'Activo', 12),
+   ('Rosabella', 'Coggan', 'Femenino', 'rcoggan3@usa.gov', 'bQQuHHDHb9yt', 'Activo', 31),
+   ('Lucas', 'Freschi', 'Masculino', 'lfreschi4@zimbio.com', 'SnUO3u', 'Inactivo', 21),
+   ('Elliot', 'Reuven', 'Masculino', 'ereuven5@dropbox.com', 'RK11snC7kw', 'Inactivo', 13),
+   ('Forester', 'Merill', 'Masculino', 'fmerill6@cisco.com', 'WIUwHWKT', 'Inactivo', 1),
+   ('Jackie', 'Macura', 'Masculino', 'jmacura7@marketwatch.com', 'xmsWjX', 'Inactivo', 28),
+   ('Hanny', 'Bassam', 'Femenino', 'hbassam8@amazon.de', 'xSfZOxWlcY', 'Inactivo', 29),
+   ('Tammy', 'Quye', 'Masculino', 'tquye9@sitemeter.com', 'AqPuq7u', 'Inactivo', 1),
+   ('Cristy', 'Osman', 'Femenino', 'cosmana@fotki.com', 'VrUsnJ', 'Activo', 24),
+   ('Kandace', 'Millington', 'Femenino', 'kmillingtonb@list-manage.com', '0WnfjllMec', 'Inactivo', 19),
+   ('Jess', 'Elphinston', 'Femenino', 'jelphinstonc@state.tx.us', 'DrqNuy', 'Activo', 28),
+   ('Byrom', 'Lavelle', 'Masculino', 'blavelled@mapquest.com', 'DzZuG4OuOuDV', 'Inactivo', 22),
+   ('Jaimie', 'Reichelt', 'Masculino', 'jreichelte@hubpages.com', '1aJd3M', 'Inactivo', 10),
+   ('Gerome', 'Simonin', 'Masculino', 'gsimoninf@ftc.gov', 'Pb8m6F8a8Rh', 'Inactivo', 22),
+   ('Berri', 'Kiley', 'Femenino', 'bkileyg@google.co.uk', 'tnwhb28eR', 'Inactivo', 9),
+   ('Natty', 'Abeau', 'Masculino', 'nabeauh@nih.gov', 'umwZk5Xd', 'Inactivo', 21),
+   ('Farrand', 'Stalf', 'Femenino', 'fstalfi@arstechnica.com', 'VSkuGVfWKV6', 'Activo', 11),
+   ('Lucy', 'Bethell', 'Femenino', 'lbethellj@mac.com', 'VWkhs9QBwo2x', 'Activo', 14),
+   ('Ken', 'Metts', 'Masculino', 'kmettsk@stumbleupon.com', '9SvAjP', 'Activo', 21),
+   ('Victoir', 'Daily', 'Masculino', 'vdailyl@nature.com', 'jRmfbl', 'Inactivo', 22),
+   ('Carlin', 'Drinkall', 'Masculino', 'cdrinkallm@walmart.com', 'e17EIb', 'Activo', 10),
+   ('Darcie', 'Dunsmuir', 'Femenino', 'ddunsmuirn@posterous.com', 'IdtCOYP0Yk9', 'Inactivo', 11),
+   ('Codie', 'Spier', 'Masculino', 'cspiero@scribd.com', 'HUFKeiZmVihW', 'Activo', 15),
+   ('Corbet', 'Vaud', 'Masculino', 'cvaudp@ted.com', 'xe2e6PIJc4', 'Inactivo', 9),
+   ('Quent', 'Skentelbury', 'Masculino', 'qskentelburyq@devhub.com', '0QybXaRbn', 'Inactivo', 28),
+   ('Catha', 'Buddle', 'Femenino', 'cbuddler@ucoz.ru', 'R9O7gpA9icQ1', 'Activo', 7),
+   ('Chester', 'Archdeacon', 'Masculino', 'carchdeacons@liveinternet.ru', 'PRB6ZTjcj', 'Activo', 30),
+   ('Lori', 'Forbes', 'Femenino', 'lforbest@wikimedia.org', 'wKhs8pJ', 'Activo', 23),
+   ('Ingaborg', 'Duny', 'Femenino', 'idunyu@list-manage.com', 'qMwhono9OK', 'Activo', 34),
+   ('Pavlov', 'Keyworth', 'Masculino', 'pkeyworthv@de.vu', '4Y8XssSde2T', 'Inactivo', 2),
+   ('Corette', 'Treffrey', 'Femenino', 'ctreffreyw@joomla.org', 'FLopzBGTBs', 'Activo', 18),
+   ('Irvine', 'Geard', 'Masculino', 'igeardx@chronoengine.com', 'h8duxK', 'Activo', 33),
+   ('Hailey', 'Bracegirdle', 'Masculino', 'hbracegirdley@flavors.me', 'ighMb3', 'Activo', 3),
+   ('Joyan', 'Shortall', 'Femenino', 'jshortallz@squarespace.com', 'LVLqLKKBuqy', 'Inactivo', 22),
+   ('Stewart', 'Ackeroyd', 'Masculino', 'sackeroyd10@phoca.cz', 'i2AaxJGixmT', 'Inactivo', 3),
+   ('Carma', 'Alleway', 'Femenino', 'calleway11@bbc.co.uk', 'UIiPnfkHicqb', 'Inactivo', 30),
+   ('Kerwin', 'McNab', 'Masculino', 'kmcnab12@arizona.edu', '9XUC77BoM', 'Activo', 29),
+   ('Kit', 'Rakes', 'Femenino', 'krakes13@i2i.jp', 'P0zJRtHGdQ', 'Activo', 29),
+   ('Jacobo', 'Gronou', 'Masculino', 'jgronou14@ebay.com', 'cLGpLRL', 'Inactivo', 8),
+   ('Donnajean', 'Rove', 'Femenino', 'drove15@nps.gov', '4i17UFkpO36Q', 'Inactivo', 3),
+   ('Orv', 'Barkley', 'Masculino', 'obarkley16@opensource.org', 'EA7TkpDCy', 'Inactivo', 28),
+   ('Lloyd', 'Grimoldby', 'Masculino', 'lgrimoldby17@mozilla.org', '0DHuOUs', 'Activo', 2),
+   ('Merrili', 'Sampey', 'Femenino', 'msampey18@csmonitor.com', 'h2Bnpds', 'Activo', 23),
+   ('Jo', 'Huckerby', 'Femenino', 'jhuckerby19@dell.com', 'KSlLkmsgjbj', 'Inactivo', 23),
+   ('Elayne', 'Jurczik', 'Femenino', 'ejurczik1a@google.co.jp', 'JhhGQVH8B', 'Inactivo', 1),
+   ('Patin', 'D'' Angelo', 'Masculino', 'pdangelo1b@yellowpages.com', 'lrr0mBJF', 'Activo', 8),
+   ('Jordain', 'Stubbley', 'Femenino', 'jstubbley1c@reference.com', 'UkwJ4SkOf', 'Activo', 27),
+   ('Dan', 'Olyff', 'Masculino', 'dolyff1d@google.it', 'fzzz0ia46f', 'Inactivo', 30),
+   ('Iormina', 'Greed', 'Femenino', 'igreed1e@jigsy.com', 'Bi9OhQq', 'Inactivo', 7),
+   ('Jeffy', 'Drillot', 'Masculino', 'jdrillot1f@weebly.com', '58Lnel', 'Inactivo', 6),
+   ('Marjy', 'Schlagtmans', 'Femenino', 'mschlagtmans1g@acquirethisname.com', 'kYPbed', 'Inactivo', 32),
+   ('Micky', 'Antowski', 'Femenino', 'mantowski1h@ted.com', 'RLq8DCxx', 'Activo', 6),
+   ('Dee dee', 'Redit', 'Femenino', 'dredit1i@marketwatch.com', 'h3IbAa', 'Activo', 16),
+   ('Birch', 'Foy', 'Masculino', 'bfoy1j@posterous.com', 'PoPbTfi', 'Inactivo', 14),
+   ('Sybille', 'MacFaul', 'Femenino', 'smacfaul1k@bbb.org', 'sroj8YbbX6St', 'Activo', 12),
+   ('Griz', 'Mottini', 'Masculino', 'gmottini1l@unblog.fr', 'spv10Q', 'Inactivo', 26),
+   ('Cassondra', 'Malicki', 'Femenino', 'cmalicki1m@howstuffworks.com', 'pFgkvZmN1J5', 'Inactivo', 19),
+   ('Robby', 'Beagen', 'Femenino', 'rbeagen1n@si.edu', 'Ndbo7AKw', 'Inactivo', 13),
+   ('Valli', 'Gutherson', 'Femenino', 'vgutherson1o@reuters.com', 'evHyytwBSJ', 'Activo', 31),
+   ('Prisca', 'Pinnigar', 'Femenino', 'ppinnigar1p@meetup.com', '9b9Agqs', 'Activo', 1),
+   ('John', 'Van Dale', 'Masculino', 'jvandale1q@example.com', 'NIHm0Py2udg', 'Inactivo', 9),
+   ('Omero', 'Alflat', 'Masculino', 'oalflat1r@usda.gov', 'Cb3e48t', 'Inactivo', 26),
+   ('Lily', 'Arnli', 'Femenino', 'larnli1s@wikispaces.com', 'OG5JJ6dfD', 'Activo', 21),
+   ('Base', 'Laing', 'Masculino', 'blaing1t@goodreads.com', 'yZo6hTCJewV', 'Inactivo', 12),
+   ('Itch', 'Bundy', 'Masculino', 'ibundy1u@hexun.com', 'coa6BJ5nl', 'Inactivo', 6),
+   ('Helli', 'Cyples', 'Femenino', 'hcyples1v@mtv.com', '1Nta1qYzxKVK', 'Inactivo', 11),
+   ('Lilian', 'Stocker', 'Femenino', 'lstocker1w@boston.com', 'bkKSs7opv', 'Activo', 18),
+   ('Nina', 'Cann', 'Femenino', 'ncann1x@youtu.be', '8Th11rlUaM', 'Inactivo', 34),
+   ('Dory', 'Lantoph', 'Femenino', 'dlantoph1y@bbb.org', 'mjwZWx', 'Activo', 13),
+   ('Kaitlyn', 'Percy', 'Femenino', 'kpercy1z@webeden.co.uk', 'lmh8OjkHr', 'Inactivo', 26),
+   ('Khalil', 'Crudginton', 'Masculino', 'kcrudginton20@xinhuanet.com', 'sAcN1k9', 'Activo', 16),
+   ('Fitzgerald', 'Beade', 'Masculino', 'fbeade21@engadget.com', 'ZpbHhuG8', 'Activo', 28),
+   ('Garner', 'Withams', 'Masculino', 'gwithams22@delicious.com', 'GG0kj3', 'Inactivo', 16),
+   ('Matthias', 'Streater', 'Masculino', 'mstreater23@ted.com', 'QckHIefE1KzF', 'Activo', 19),
+   ('Janene', 'Olland', 'Femenino', 'jolland24@issuu.com', 'VvbAHJn', 'Activo', 14),
+   ('Bruno', 'Antrobus', 'Masculino', 'bantrobus25@sogou.com', 'tut4DLd1', 'Activo', 27),
+   ('Rance', 'Boast', 'Masculino', 'rboast26@examiner.com', 'dqibnR', 'Activo', 2),
+   ('Dugald', 'McKue', 'Masculino', 'dmckue27@pcworld.com', '3lUiAAbXY94', 'Inactivo', 2),
+   ('Rose', 'Camilleri', 'Femenino', 'rcamilleri28@free.fr', 'Icr8coxf', 'Inactivo', 6),
+   ('Shanan', 'Gilhouley', 'Masculino', 'sgilhouley29@geocities.jp', 'QCyAbNOD4I', 'Activo', 21),
+   ('Barde', 'Cocking', 'Masculino', 'bcocking2a@arstechnica.com', 's732h9L', 'Activo', 32),
+   ('Irwinn', 'Whife', 'Masculino', 'iwhife2b@gizmodo.com', 'NnwVvF6fvnOW', 'Inactivo', 3),
+   ('Ronny', 'Buncombe', 'Femenino', 'rbuncombe2c@go.com', 'J6cNUKCjw', 'Inactivo', 29),
+   ('Merrie', 'Avrahamov', 'Femenino', 'mavrahamov2d@stumbleupon.com', 'f4rC6OfaZ', 'Activo', 3),
+   ('Ezequiel', 'O''Dunniom', 'Masculino', 'eodunniom2e@purevolume.com', 'AluyUsfPi', 'Inactivo', 28),
+   ('Antony', 'Mattioni', 'Masculino', 'amattioni2f@bloomberg.com', 'ftW5GvKQ', 'Activo', 2),
+   ('Odelle', 'Godrich', 'Femenino', 'ogodrich2g@booking.com', 'qlPnbpXY', 'Inactivo', 2),
+   ('Kizzee', 'Thiese', 'Femenino', 'kthiese2h@devhub.com', 'mQil1m', 'Activo', 23),
+   ('Robinet', 'Scotcher', 'Masculino', 'rscotcher2i@creativecommons.org', 'b2s3ppl40', 'Inactivo', 34),
+   ('Farley', 'Barnhart', 'Masculino', 'fbarnhart2j@hugedomains.com', 'mXSOGbtf1', 'Inactivo', 34),
+   ('Irv', 'Tiplady', 'Masculino', 'itiplady2k@latimes.com', 'hnOWAT5E5ZX', 'Activo', 22),
+   ('Hilary', 'Threadgill', 'Femenino', 'hthreadgill2l@wired.com', 'ddnkHeOoSq', 'Inactivo', 33),
+   ('Leisha', 'Ballendine', 'Femenino', 'lballendine2m@wiley.com', 'QoB4VNsF', 'Inactivo', 25);
 

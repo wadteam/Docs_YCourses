@@ -1,37 +1,35 @@
-USE bd_ycourses;
-/*INSERTANDO 30 COLUMNAS*/
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345771-4', 'Ellary', 'Baily', 'Masculino', 'ebaily0@diigo.com', 'TYZZVsh', '8/31/2003', 'Database Administrator III', 'National Defense University', 'Activo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345772-2', 'Nata', 'Croydon', 'Femenino', 'ncroydon1@netvibes.com', 'ncnKL7q21', '5/7/2022', 'Computer Systems Analyst III', 'National Dong Hwa University', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345773-0', 'Barclay', 'Gapper', 'Masculino', 'bgapper2@paginegialle.it', 'OkZXbUQUED8', '1/5/2018', 'Help Desk Operator', 'University of Northampton', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345774-9', 'Madelle', 'Giorio', 'Femenino', 'mgiorio3@reddit.com', 'zzSgL9CFwX', '8/5/2029', 'Information Systems Manager', 'Institute of Teachers Education, Temenggong Ibrahim', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345775-7', 'Irita', 'Applewhite', 'Femenino', 'iapplewhite4@angelfire.com', 'LSbJBU', '4/9/2025', 'Payment Adjustment Coordinator', 'Technological University (Taungoo)', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345776-5', 'Engracia', 'End', 'Femenino', 'eend5@yellowpages.com', 'DpB8hjri12E', '2/10/2009', 'Automation Specialist I', 'Institute for Advanced Studies Lucca', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345777-3
-', 'Britte', 'Palluschek', 'Femenino', 'bpalluschek6@seesaa.net', 'QCHgTljg', '12/12/2015', 'Dental Hygienist', 'Hitec University', 'Activo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345778-1
-', 'Hermon', 'Trubshawe', 'Masculino', 'htrubshawe7@mit.edu', 'sGLd0W', '1/31/2007', 'Assistant Media Planner', 'Fachhochschule Krems', 'Activo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345779-K
-', 'Jonah', 'Doyland', 'Masculino', 'jdoyland8@tripod.com', 'kdWW59q2J', '4/5/2020', 'Analog Circuit Design manager', 'Ambo University', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345780-3
-', 'Lilith', 'Brugger', 'Femenino', 'lbrugger9@domainmarket.com', 'beH7zp', '3/15/2016', 'Community Outreach Specialist', 'Universitas Merdeka Madiun', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345781-1', 'Doreen', 'MacGaughie', 'Femenino', 'dmacgaughiea@is.gd', 'LYicLv', '6/12/2030', 'Chemical Engineer', 'Fachhochschule Kempten, Hochschule für Technik und Wirtschaft', 'Activo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345782-K', 'Mikaela', 'Delion', 'Femenino', 'mdelionb@sbwire.com', '2d5lVwIuwNa', '2/11/2004', 'Legal Assistant', 'Khalifa University', 'Activo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345783-8', 'Jo-ann', 'Balf', 'Femenino', 'jbalfc@cornell.edu', 'PcsHtgt63', '4/17/2020', 'Food Chemist', 'Fachhochschule Pur', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345784-6', 'Katha', 'Lesley', 'Femenino', 'klesleyd@last.fm', 'QZwpjKQ', '4/20/2016', 'Assistant Media Planner', 'DeSales University', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345785-4', 'Kristien', 'Fishenden', 'Femenino', 'kfishendene@gravatar.com', '7GZFzmU4F', '10/3/2009', 'Business Systems Development Analyst', 'Kabardino-Balkarian State University', 'Activo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345786-2', 'Ginny', 'Nelthorpe', 'Femenino', 'gnelthorpef@dion.ne.jp', 'MqhpFuoj', '2/16/2009', 'Chemical Engineer', 'Mary Baldwin College', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345787-0', 'Renado', 'Gruszczak', 'Masculino', 'rgruszczakg@uol.com.br', 'hN5hUWLdHh7', '8/29/2002', 'Safety Technician II', 'Etisalat University College', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345788-9', 'Isahella', 'Brearton', 'Femenino', 'ibreartonh@google.ru', 'OjiWlc', '1/7/2011', 'Editor', 'Universidad San Pablo', 'Activo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345789-7', 'Terrence', 'Winsiowiecki', 'Masculino', 'twinsiowieckii@china.com.cn', 'SBjsLu8NID', '6/30/2015', 'Professor', 'Iceland University of Education', 'Activo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12345790-0', 'Derek', 'Rawls', 'Masculino', 'drawlsj@hugedomains.com', 'km0u0pHBr1', '6/27/2024', 'Paralegal', 'Kigali Health Institute', 'Activo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('16944869-8', 'Kele', 'Mogridge', 'Masculino', 'kmogridgek@artisteer.com', 'lwNUHqj7H', '2/4/2022', 'Research Assistant III', 'Banasthali University', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('16944870-1', 'Minny', 'Werndley', 'Femenino', 'mwerndleyl@merriam-webster.com', 'aOy16Ll', '9/19/2022', 'Quality Engineer', 'Catholic University of Pusan', 'Activo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('16944871-K', 'Ernestus', 'Josiah', 'Masculino', 'ejosiahm@wufoo.com', 'BVnvnZWxV4', '4/11/2005', 'VP Accounting', 'Philippine Normal University', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('16944872-8
-', 'Fayth', 'Horribine', 'Femenino', 'fhorribinen@nps.gov', '1NDbJCbKF59', '2/27/2027', 'Nurse', 'King''s College', 'Activo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('18111674-9', 'Giacobo', 'Ireland', 'Masculino', 'girelando@dmoz.org', 'uhAGtIXbP', '10/11/2028', 'Paralegal', 'Escuela Bancaria y Comercial', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('18111674-9', 'Grata', 'Clapton', 'Femenino', 'gclaptonp@examiner.com', 'Hyg7j5Ua', '8/14/2025', 'Research Nurse', 'FTMS Global Academy', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12887353-8', 'Ban', 'Lukianovich', 'Masculino', 'blukianovichq@unicef.org', 'AyRe5MULn7H', '8/22/2008', 'Web Designer I', 'Police Academy of Latvia', 'Activo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12887354-6', 'Kessiah', 'Chaplyn', 'Femenino', 'kchaplynr@yellowbook.com', 'A0ATiGVHIX', '1/6/2013', 'Senior Sales Associate', 'Polytechnic University, Long Island Campus', 'Activo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12887355-4', 'Dotty', 'Parkinson', 'Femenino', 'dparkinsons@comsenz.com', 'Dt012IA', '2/11/2011', 'Computer Systems Analyst III', 'International Business University of Beijing', 'Inactivo');
-insert into relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado) values ('12887356-2', 'Austine', 'Lawler', 'Femenino', 'alawlert@phpbb.com', 'wWmtXOKLVK', '1/18/2020', 'Administrative Officer', 'Universidade Independente', 'Activo');
+﻿USE bd_ycourses;
+/*INSERTANDO (30) COLUMNA(S)*/
+/*FORMATO DATE yyyy-mm-dd*/
+INSERT INTO relator (rutrelator, nombre, apellidos, genero, email, password, fecha_nacimiento, titulo, universidad, estado, ciudad_idciudad)
+VALUES
+   ('12345771-4', 'Ellary', 'Baily', 'Masculino', 'ebaily0@diigo.com', 'TYZZVsh', '2003-08-13', 'Database Administrator III', 'National Defense University', 'Activo',1),
+   ('12345772-2', 'Nata', 'Croydon', 'Femenino', 'ncroydon1@netvibes.com', 'ncnKL7q21', '2000-07-03', 'Computer Systems Analyst III', 'National Dong Hwa University', 'Inactivo',2),
+   ('12345773-0', 'Barclay', 'Gapper', 'Masculino', 'bgapper2@paginegialle.it', 'OkZXbUQUED8', '2018-01-03', 'Help Desk Operator', 'University of Northampton', 'Inactivo',12),
+   ('12345774-9', 'Madelle', 'Giorio', 'Femenino', 'mgiorio3@reddit.com', 'zzSgL9CFwX', '1973-04-28', 'Information Systems Manager', 'Institute of Teachers Education, Temenggong Ibrahim', 'Inactivo',5),
+   ('12345775-7', 'Irita', 'Applewhite', 'Femenino', 'iapplewhite4@angelfire.com', 'LSbJBU', '1973-04-28', 'Payment Adjustment Coordinator', 'Technological University (Taungoo)', 'Inactivo',29),
+   ('12345776-5', 'Engracia', 'End', 'Femenino', 'eend5@yellowpages.com', 'DpB8hjri12E', '1973-04-28', 'Automation Specialist I', 'Institute for Advanced Studies Lucca', 'Inactivo',14),
+   ('12345777-3', 'Britte', 'Palluschek', 'Femenino', 'bpalluschek6@seesaa.net', 'QCHgTljg', '1973-04-28', 'Dental Hygienist', 'Hitec University', 'Activo',3),
+   ('12345778-1', 'Hermon', 'Trubshawe', 'Masculino', 'htrubshawe7@mit.edu', 'sGLd0W', '1973-04-28', 'Assistant Media Planner', 'Fachhochschule Krems', 'Activo',17),
+   ('12345779-K', 'Jonah', 'Doyland', 'Masculino', 'jdoyland8@tripod.com', 'kdWW59q2J', '1973-04-28', 'Analog Circuit Design manager', 'Ambo University', 'Inactivo',12),
+   ('12345780-3', 'Lilith', 'Brugger', 'Femenino', 'lbrugger9@domainmarket.com', 'beH7zp', '1973-04-28', 'Community Outreach Specialist', 'Universitas Merdeka Madiun', 'Inactivo',14),
+   ('12345781-1', 'Doreen', 'MacGaughie', 'Femenino', 'dmacgaughiea@is.gd', 'LYicLv', '1973-04-28', 'Chemical Engineer', 'Fachhochschule Kempten, Hochschule für Technik und Wirtschaft', 'Activo',25),
+   ('12345782-K', 'Mikaela', 'Delion', 'Femenino', 'mdelionb@sbwire.com', '2d5lVwIuwNa', '1973-04-28', 'Legal Assistant', 'Khalifa University', 'Activo',34),
+   ('12345783-8', 'Jo-ann', 'Balf', 'Femenino', 'jbalfc@cornell.edu', 'PcsHtgt63', '1973-04-28', 'Food Chemist', 'Fachhochschule Pur', 'Inactivo',10),
+   ('12345784-6', 'Katha', 'Lesley', 'Femenino', 'klesleyd@last.fm', 'QZwpjKQ', '1973-04-28', 'Assistant Media Planner', 'DeSales University', 'Inactivo',1),
+   ('12345785-4', 'Kristien', 'Fishenden', 'Femenino', 'kfishendene@gravatar.com', '7GZFzmU4F', '1973-04-28', 'Business Systems Development Analyst', 'Kabardino-Balkarian State University', 'Activo',2),
+   ('12345786-2', 'Ginny', 'Nelthorpe', 'Femenino', 'gnelthorpef@dion.ne.jp', 'MqhpFuoj', '1973-04-28', 'Chemical Engineer', 'Mary Baldwin College', 'Inactivo',16),
+   ('12345787-0', 'Renado', 'Gruszczak', 'Masculino', 'rgruszczakg@uol.com.br', 'hN5hUWLdHh7', '1973-04-28', 'Safety Technician II', 'Etisalat University College', 'Inactivo',13),
+   ('12345788-9', 'Isahella', 'Brearton', 'Femenino', 'ibreartonh@google.ru', 'OjiWlc', '1973-04-28', 'Editor', 'Universidad San Pablo', 'Activo',8),
+   ('12345789-7', 'Terrence', 'Winsiowiecki', 'Masculino', 'twinsiowieckii@china.com.cn', 'SBjsLu8NID', '1973-04-28', 'Professor', 'Iceland University of Education', 'Activo',14),
+   ('12345790-0', 'Derek', 'Rawls', 'Masculino', 'drawlsj@hugedomains.com', 'km0u0pHBr1', '1973-04-28', 'Paralegal', 'Kigali Health Institute', 'Activo',16),
+   ('16944869-8', 'Kele', 'Mogridge', 'Masculino', 'kmogridgek@artisteer.com', 'lwNUHqj7H', '1973-04-28', 'Research Assistant III', 'Banasthali University', 'Inactivo',14),
+   ('16944870-1', 'Minny', 'Werndley', 'Femenino', 'mwerndleyl@merriam-webster.com', 'aOy16Ll', '1973-04-28', 'Quality Engineer', 'Catholic University of Pusan', 'Activo',25),
+   ('16944871-K', 'Ernestus', 'Josiah', 'Masculino', 'ejosiahm@wufoo.com', 'BVnvnZWxV4', '1973-04-28', 'VP Accounting', 'Philippine Normal University', 'Inactivo',2),
+   ('16944872-8', 'Fayth', 'Horribine', 'Femenino', 'fhorribinen@nps.gov', '1NDbJCbKF59', '1973-04-28', 'Nurse', 'King''s College', 'Activo',24),
+   ('18111674-9', 'Giacobo', 'Ireland', 'Masculino', 'girelando@dmoz.org', '1973-04-28', '10/11/2028', 'Paralegal', 'Escuela Bancaria y Comercial', 'Inactivo',16),
+   ('18202674-9', 'Grata', 'Clapton', 'Femenino', 'gclaptonp@examiner.com', '1973-04-28', '8/14/2025', 'Research Nurse', 'FTMS Global Academy', 'Inactivo',32),
+   ('12887353-8', 'Ban', 'Lukianovich', 'Masculino', 'blukianovichq@unicef.org', 'AyRe5MULn7H', '1973-04-28', 'Web Designer I', 'Police Academy of Latvia', 'Activo',17),
+   ('12887354-6', 'Kessiah', 'Chaplyn', 'Femenino', 'kchaplynr@yellowbook.com', 'A0ATiGVHIX', '1973-04-28', 'Senior Sales Associate', 'Polytechnic University, Long Island Campus', 'Activo',5),
+   ('12887355-4', 'Dotty', 'Parkinson', 'Femenino', 'dparkinsons@comsenz.com', 'Dt012IA', '1973-04-28', 'Computer Systems Analyst III', 'International Business University of Beijing', 'Inactivo',30),
+   ('12887356-2', 'Austine', 'Lawler', 'Femenino', 'alawlert@phpbb.com', 'wWmtXOKLVK', '1973-04-28', 'Administrative Officer', 'Universidade Independente', 'Activo',1);

@@ -1,5 +1,6 @@
-
+﻿
 USE bd_ycourses;
+/*INSERTANDO (34) COLUMNA(S)*/
 INSERT INTO ciudad (idciudad,nombre,region)
 VALUES 
 (01,'Arica','Región de Arica y Parinacota'),

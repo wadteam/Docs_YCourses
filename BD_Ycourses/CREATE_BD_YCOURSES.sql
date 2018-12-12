@@ -126,7 +126,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `bd_ycourses`.`relator` ;
 
 CREATE TABLE IF NOT EXISTS `bd_ycourses`.`relator` (
-  `rutrelator` INT NOT NULL AUTO_INCREMENT,
+  `rutrelator` VARCHAR(12) NOT NULL,
   `nombre` VARCHAR(50) NOT NULL,
   `apellidos` VARCHAR(80) NOT NULL,
   `genero` VARCHAR(30) NULL,
@@ -154,7 +154,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `bd_ycourses`.`perfil_relator` ;
 
 CREATE TABLE IF NOT EXISTS `bd_ycourses`.`perfil_relator` (
-  `relator_idRelator` INT NOT NULL,
+  `relator_idRelator` VARCHAR(12) NOT NULL,
   `numerocontacto` VARCHAR(25) NULL,
   `numerocontactoextra` VARCHAR(25) NULL,
   `descripcion` VARCHAR(180) NULL,
@@ -175,7 +175,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `bd_ycourses`.`contrato` ;
 
 CREATE TABLE IF NOT EXISTS `bd_ycourses`.`contrato` (
-  `relator_idRelator` INT NOT NULL,
+  `relator_idRelator` VARCHAR(12) NOT NULL,
   `fechacontrato` DATE NOT NULL,
   `fechavencimiento` DATE NULL,
   `copiadjunta` MEDIUMBLOB NULL,
@@ -250,7 +250,7 @@ CREATE TABLE IF NOT EXISTS `bd_ycourses`.`servicio` (
   `direccionlugar` VARCHAR(45) NULL,
   `estado` VARCHAR(30) NOT NULL,
   `tipo_servicio_idtipo_servicio` INT NOT NULL,
-  `relator_rutrelator` INT NOT NULL,
+  `relator_rutrelator` VARCHAR(12) NOT NULL,
   `ciudad_idciudad` INT NULL,
   PRIMARY KEY (`idservicio`),
   INDEX `fk_servicio_tipo_servicio1_idx` (`tipo_servicio_idtipo_servicio` ASC),
@@ -444,7 +444,7 @@ CREATE TABLE IF NOT EXISTS `bd_ycourses`.`calificacion` (
   `fechacalificacion` DATE NOT NULL,
   `observacion` VARCHAR(80) NULL,
   `tipoevaluacion` VARCHAR(30) NULL,
-  `relator_rutrelator` INT NOT NULL,
+  `relator_rutrelator` VARCHAR(12) NOT NULL,
   `nomina_alumno_servicio_id_alumno_servicio` INT NOT NULL,
   PRIMARY KEY (`idcalificacion`),
   INDEX `fk_calificacion_relator1_idx` (`relator_rutrelator` ASC),
