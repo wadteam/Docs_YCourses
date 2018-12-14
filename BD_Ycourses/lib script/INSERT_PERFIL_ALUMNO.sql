@@ -1,5 +1,6 @@
 USE bd_ycourses;
-/*INSERTANDO (95) COLUMNA(S)*/
+/*INSERTANDO (95) FILA(S)*/
+
  INSERT INTO perfil_alumno (alumno_idalumno, fechanacimiento, numerocontacto)
  VALUES
     (1, '1970-11-27', '+7 (141) 690-7490'),

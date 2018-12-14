@@ -1,7 +1,8 @@
 USE bd_ycourses;
 /*INSERTANDO (30) FILA(S)*/
 /*FORMATO DATE yyyy-mm-dd*/
-INSERT INTO perfil_relator (relator_idRelator, numerocontacto, especialidad)
+
+INSERT INTO perfil_relator (relator_rutrelator, numerocontacto, especialidad)
 VALUES
    ('12345771-4', '+62 (194) 900-6605', 'LTV'),
    ('12345772-2', '+62 (403) 917-9570', 'AOC'),

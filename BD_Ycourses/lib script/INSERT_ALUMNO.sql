@@ -1,5 +1,5 @@
 USE bd_ycourses;
-/*INSERTANDO (95) COLUMNA(S)*/
+/*INSERTANDO (95) FILA(S)*/
 INSERT INTO alumno (nombre, apellidos, genero, email, password, estado, ciudad_idciudad)
 VALUES
    ('Marty', 'Dimnage', 'Masculino', 'mdimnage0@va.gov', 'mqSTHIO9nCWi', 'Activo', 24),

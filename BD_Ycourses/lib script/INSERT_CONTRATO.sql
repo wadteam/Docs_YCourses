@@ -1,7 +1,8 @@
 USE bd_ycourses;
 /*INSERTANDO (30) FILA(S)*/
 /*FORMATO DATE yyyy-mm-dd*/
-INSERT INTO contrato (relator_idRelator, fechacontrato, estado)
+
+INSERT INTO contrato (relator_rutrelator, fechacontrato, estado)
 VALUES
   ('12345771-4', '2015-12-16', 'Vigente'),
   ('12345772-2', '2018-01-31', 'Vigente'),
